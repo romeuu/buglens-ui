@@ -20,6 +20,9 @@
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
+            "scripts": [
+              "node_modules/zone.js/fesm2015/zone.js"
+            ],
             "assets": [
               {
                 "glob": "**/*",
